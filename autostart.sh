@@ -1,6 +1,6 @@
 #!/bin/sh
 #feh --bg-scale /usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png
-feh --bg-scale ~/Pictures/wormholespace.png 
+feh --bg-scale ~/.config/qtile/themeimgs/wormholespace.png 
 picom & disown # --experimental-backends --vsync should prevent screen tearing on most setups if needed
 
 # Low battery notifier
