@@ -79,5 +79,5 @@ keys = [
     Key([], "XF86AudioRaiseVolume",lazy.spawn("amixer set Master 3%+")),
     Key([], "XF86AudioLowerVolume",lazy.spawn("amixer set Master 3%-")),
     Key([], "XF86AudioMute",lazy.spawn("amixer set Master toggle")),
-    Key([], "Print",lazy.spawn("scrot ~/Pictures/Screenshots-$(date +%F_%T).png")),
+    Key([], "Print",lazy.spawn("scrot /home/blindside/Pictures/screenshot_%b-%d-%y-%H-%M.png")),
 ]
